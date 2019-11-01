@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="colorControlNormal">#ffffff</item> //edit text 밑줄 색상
+        <item name="windowNoTitle">true</item> //위에 2줄 화면 맨 위 상태바 제거
+        <item name="colorControlActivated">#ffffff</item> //edittext 입력 시 밑줄 색 + 글씨 드래그시 눈물모양 색
+        <!--<item name="android:statusBarColor">#555555</item> //상태바 배경색상-->
+    </style>
+
+</resources>
